@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: greemall
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/greemall?useSSL=false&serverTimezone=UTC
+    username: root
+    password: 24jx
+
+
+
+server:
+  servlet:
+    context-path: /greemall
